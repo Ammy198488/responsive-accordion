@@ -35,6 +35,9 @@
     transform: rotate(180deg);
     transition: transform .2s .1s;
 }
+.accordion.active i{
+    transform: rotate(180deg);
+}
 .container .accordion-container .accordion.active .accordion-content{
     display: block;
 }
