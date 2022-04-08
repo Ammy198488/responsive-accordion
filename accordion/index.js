@@ -10,8 +10,8 @@
 
 // or
 let accordions = document.querySelectorAll('.accordion-container .accordion');
-accordions.forEach(acco => {
-    acco.addEventListener("click", () => {
-        acco.classList.toggle('active')
+accordions.forEach(accordions => {
+    accordions.addEventListener("click", () => {
+        accordions.classList.toggle('active')
     })
 })
